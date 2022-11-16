@@ -1,0 +1,20 @@
+[
+    {
+        "title":"Harry",
+        "price": 4565,
+        "thumbnail":"www.lorem.com",
+        "id":1
+    },
+    {
+        "title":"Philips",
+        "price": 6597,
+        "thumbnail":"www.lorem.com",
+        "id":2
+    },
+    {
+        "title":"Coca",
+        "price": 9864,
+        "thumbnail":"www.lorem.com",
+        "id":3
+    }
+]
