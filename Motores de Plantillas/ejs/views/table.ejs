@@ -1,0 +1,32 @@
+<% if(getProductos) { %>
+<div class="elementoCentrado">
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (const prod of getProductos) { %>
+      <tr>
+        <td><%=prod.nombre%></td>
+        <td>$<%=prod.precio%></td>
+        <td>
+          <img src="<%=prod.url%>" alt="<%=prod.nombre%>" width="100px" />
+        </td>
+      </tr>
+      <% }; %>
+    </tbody>
+  </table>
+</div>
+<a href="/" class="elementoCentrado">
+  <button class="tableButton">Añadir más productos</button>
+</a>
+<% } else{ %>
+<h2>No hay productos</h2>
+<a href="/">
+  <button class="tableButton">Añadir productos</button>
+</a>
+<% }; %>

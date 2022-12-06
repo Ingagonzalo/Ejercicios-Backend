@@ -1,0 +1,40 @@
+<h1 class="elementoCentrado">Ingrese un producto:</h1>
+<div class="elementoCentrado">
+  <form action="/productos" method="post" name="productos">
+    <fieldset>
+      <div>
+        <label for="nombre"><b>Nombre</b></label>
+        <input
+          type="text"
+          placeholder="Ingrese el nombre del producto"
+          id="nombre"
+          name="nombre"
+        />
+      </div>
+
+      <div>
+        <label for="precio"><b>Precio</b></label>
+        <input
+          type="text"
+          placeholder="Ingrese el precio del producto"
+          id="precio"
+          name="precio"
+        />
+      </div>
+
+      <div>
+        <label for="url"><b>Foto URL</b></label>
+        <input
+          type="url"
+          placeholder="Ingrese la URL de su foto"
+          id="url"
+          name="url"
+        />
+      </div>
+
+      <button>Enviar</button>
+      <br />
+      <a href="/productos" class="more">Ver productos</a>
+    </fieldset>
+  </form>
+</div>
