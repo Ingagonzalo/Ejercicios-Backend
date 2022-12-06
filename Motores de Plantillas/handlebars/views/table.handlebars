@@ -1,0 +1,30 @@
+{{#if getProductos}}
+    <div class="elementoCentrado">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each getProductos}}
+                <tr>
+                    <td>{{this.nombre}}</td>
+                    <td>{{this.precio}}</td>
+                    <td><img src={{this.url}} alt={{this.nombre}} width="100px"></td>
+                </tr> 
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+    <a href="/" class="elementoCentrado">
+      <button class="tableButton">Añadir más productos</button>
+    </a>
+{{else}}
+    <h2>No hay productos</h2>
+    <a href="/">
+        <button>Añadir productos</button>
+    </a>
+{{/if}}
