@@ -1,0 +1,20 @@
+h1(class="elementoCentrado")="Ingrese un producto:"
+div(class="elementoCentrado")
+    form(action="/productos" method="post" name="productos")
+        fieldset 
+            div
+                label(for="nombre")="Nombre"
+                input(type="text" placeholder="Ingrese el nombre del producto" id="nombre" name="nombre" )
+
+            div
+                label(for="precio")="Precio"
+                input(type="text" placeholder="Ingrese el precio del producto" id="precio" name="precio" )
+
+            div
+                label(for="url")="Foto URL"
+                input(type="url" placeholder="Ingrese la URL de su foto" id="url" name="url" )
+
+            button="Enviar"
+        
+            a(href="/productos" class="more")= "Ver productos"
+               

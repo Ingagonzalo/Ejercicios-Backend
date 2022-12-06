@@ -1,0 +1,68 @@
+.elementoCentrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* form styles */
+h1 {
+  color: rgb(154, 200, 48);
+}
+form {
+  width: 50vw;
+}
+input {
+  width: 98%;
+  padding: 0.3rem;
+  margin: 0.3rem 0;
+}
+fieldset {
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+button {
+  padding: 0.3rem 0.8rem;
+  margin: 0.3rem 0;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(154, 200, 48);
+  border: none;
+  border-radius: 0.3rem;
+  flex-direction: row;
+}
+button:hover {
+  background-color: rgb(36, 198, 71);
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+/* table styles */
+table {
+  width: 80%;
+  margin: 1.5rem;
+  border-spacing: 0;
+}
+thead {
+  background-color: rgb(132, 201, 107);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+td,
+th {
+  border: 0.1px solid rgb(0, 0, 0);
+  padding: 0.5rem;
+  width: 33%;
+  text-align: center;
+}
+.tableButton {
+  width: 80%;
+}
