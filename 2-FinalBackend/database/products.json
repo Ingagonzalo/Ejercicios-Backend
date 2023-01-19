@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Lapicera",
+    "description": "Para escribir",
+    "code": "5423",
+    "img": "test",
+    "price": "120",
+    "stock": "10"
+  },
+  {
+    "id": "2",
+    "name": "Lapiz",
+    "description": "Para escribir",
+    "code": "56423",
+    "img": "test",
+    "price": "60",
+    "stock": "10"
+  },
+  {
+    "name": "Cartuchera",
+    "description": "Para guardar cosas",
+    "code": "1231",
+    "img": "test",
+    "price": "120",
+    "stock": "10",
+    "id": 3,
+    "timestamp": 1670984503498
+  }
+]
