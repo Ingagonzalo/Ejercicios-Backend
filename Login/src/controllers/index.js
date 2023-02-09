@@ -15,7 +15,7 @@ const login = (req, res) => {
     if (!users.includes(username)) { //si el nombre que yo recibo esta incluido en mi arreglo de users, la condicion se cumple
         res.send("Invalid credentials")
     }
-    req.sessions.user = username;
+    req.session.user = username;
     res.redirect("/welcome") //lo redirecciono a la ruta
 }
 
@@ -47,5 +47,5 @@ const serverWelcome = (req, res) => {
 };
 
 
-export const authController = { serverLogin, login, serverRegister, register, serverWelcome, logout }
+export const authController = { serverLogin, login, serverRegister, register, serverWelcome, logout, };
 
