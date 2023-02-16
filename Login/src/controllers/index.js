@@ -6,7 +6,7 @@ const __dirname = dirname(__filename);
 const users = ["Gonzalo"];
 
 const serverLogin = (req, res) => {
-    res.sendFile(join(__dirname, "../views/login.html"))
+    res.sendFile(join(__dirname, "../../views/login.html"))
 };
 
 const login = (req, res) => {
@@ -16,12 +16,12 @@ const login = (req, res) => {
         res.send("Invalid credentials")
     }
     req.session.user = username;
-    res.redirect("/welcome") //lo redirecciono a la ruta
+    res.redirect("../welcome") //lo redirecciono a la ruta
 }
 
 
 const serverRegister = (req, res) => {
-    res.sendFile(join(__dirname, "../views/register.html"))
+    res.sendFile(join(__dirname, "../../views/register.html"))
 };
 
 const register = (req, res) => {

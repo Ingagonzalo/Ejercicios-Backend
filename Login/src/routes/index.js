@@ -10,7 +10,7 @@ router
     .post(authMiddlewares.checkNotLogged, authController.login);
 router
     .route("/register")
-    .get(authMiddlewares.checkNotLogged, authController.serverResgister)
+    .get(authMiddlewares.checkNotLogged, authController.serverRegister)
     .post(authMiddlewares.checkNotLogged, authController.register);
 router
     .route("/logout")

@@ -3,10 +3,14 @@ import session from "express-session";
 import MongoStore from "connect-mongo";
 import expHbs from "express-handlebars";
 import router from "./routes/index.js";
+import { configObject } from "./config/index.js";
 
 
 const app = express();
-
+const mongoOptions = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}; // ESTO ES PARA EL CASO DE QUE USEMOS MONGO ATLAS
 app.use(json());
 app.use(urlencoded({ extended: true }));
 app.use(
