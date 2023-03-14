@@ -1,0 +1,17 @@
+<div class="container text-center my-3">
+    <div class="jumbotron" style="background-color: salmon;color: white;">
+        <h1>Error en la validacion de datos❌</h1>
+
+        <button class="btn btn-warning my-5" onclick="back()">Back◀</button>
+    </div>
+</div>
+
+<script>
+    function redireccionar(pagina) {
+        location.href = pagina;
+    } 
+    function back() {
+        console.log('volviendo...');
+        redireccionar('/')
+    }
+</script>
