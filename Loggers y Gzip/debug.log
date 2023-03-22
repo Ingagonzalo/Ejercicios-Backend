@@ -1,0 +1,4 @@
+
+{"level":30,"time":1679447879244,"pid":4620,"hostname":"DESKTOP-81CVNO7","msg":"Server listening port 3000"}
+{"level":30,"time":1679447879480,"pid":4620,"hostname":"DESKTOP-81CVNO7","msg":"New request in route:"}
+{"level":40,"time":1679447879610,"pid":4620,"hostname":"DESKTOP-81CVNO7","msg":"Ruta GET /favicon.ico no implementada"}
