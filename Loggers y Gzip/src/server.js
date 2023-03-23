@@ -1,17 +1,17 @@
-import compression from "compression";
 import logger from "../logsConfig/logsConfig.js";
 import express from "express";
-
+import info from "./routes/info.js"
+import compression from "compression";
 
 
 const app = express();
 
-const response = "Hola que tal".repeat(1000);
 
 
 app.use((compression)())
 
-app.get("/info", (req, res) => { //ctrl+F5 para que actualice todo, en el caso que no vea la compresion
+
+/*app.get("/info", (req, res) => { //ctrl+F5 para que actualice todo, en el caso que no vea la compresion
     try {
         logger.info("New request in route:", req.route.path)
         res.send(response);
@@ -20,7 +20,10 @@ app.get("/info", (req, res) => { //ctrl+F5 para que actualice todo, en el caso q
         logger.error("Error:", err.message)
     }
 
-});
+});*/// PRUEBA
+
+app.use('/test', compression(), info);
+
 
 app.get("/", (req, res) => { //ctrl+F5 para que actualice todo, en el caso que no vea la compresion
     try {
@@ -36,11 +39,11 @@ app.get("/", (req, res) => { //ctrl+F5 para que actualice todo, en el caso que n
 
 
 
-app.get("/infozip", compression(), (req, res) => {
+// app.get("/infozip", compression(), (req, res) => {
 
-    res.send(response);
+//     res.send(response);
 
-});
+// });
 
 
 app.get("*", (req, res) => {

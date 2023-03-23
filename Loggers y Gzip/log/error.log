@@ -1,0 +1,103 @@
+[2023-03-22T19:13:55.075] [ERROR] default - Error: response is not defined
+[2023-03-22T19:14:09.703] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.560] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.564] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.568] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.586] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.606] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.626] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.646] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.665] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.687] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.706] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.727] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.747] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.766] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.786] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.805] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.826] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.845] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.866] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.886] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.906] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.925] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.946] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.965] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:14.985] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.005] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.025] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.045] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.065] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.085] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.105] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.125] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.145] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.165] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.185] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.207] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.225] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.245] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.265] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.285] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.305] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.325] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.345] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.365] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.386] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.405] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.425] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.445] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.465] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.485] [ERROR] default - Error: response is not defined
+[2023-03-22T20:40:15.506] [ERROR] default - Error: response is not defined
+[2023-03-22T20:51:28.063] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Gonzalo\Desktop\Loggers y Gzip\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/Gonzalo/Desktop/Loggers%20y%20Gzip/src/server.js:56:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[2023-03-22T20:51:29.851] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Gonzalo\Desktop\Loggers y Gzip\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/Gonzalo/Desktop/Loggers%20y%20Gzip/src/server.js:56:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+[2023-03-22T20:51:42.493] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (C:\Users\Gonzalo\Desktop\Loggers y Gzip\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/Gonzalo/Desktop/Loggers%20y%20Gzip/src/server.js:56:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
